@@ -1,5 +1,4 @@
 /* global Handlebars, utils, dataSource */ // eslint-disable-line no-unused-vars
-
 {
   'use strict';
 
@@ -136,7 +135,7 @@
         /* find active product (product that has active class) */
         const activeProduct = document.querySelector(select.all.menuProductsActive);
 
-        if (activeProduct !== thisProduct.element && !activeProduct) {
+        if (activeProduct !==thisProduct.element && activeProduct!==null) {
           /* if there is active product and it's not thisProduct.element, remove class active from it */
           activeProduct.classList.remove('active');
         }
@@ -200,12 +199,13 @@
         }
       }
       // multiply price
+      thisProduct.priceSingle = price;
       price *= thisProduct.amountWidget.value;
 
       // update calculated price in the HTML
-      thisProduct.price = price;
-      thisProduct.priceSingle = price;
+
       thisProduct.priceElem.innerHTML = price;
+      thisProduct.price = price;
     }
 
     prepareCartProduct() {
@@ -337,8 +337,40 @@
       const generatedHTML = templates.cartProduct(menuProduct);
       const generatedDOM = utils.createDOMFromHTML(generatedHTML);
       thisCart.dom.productList.appendChild(generatedDOM);
-      thisCart.products.push(menuProduct);
+      thisCart.products.push(new CartProduct(menuProduct, generatedDOM));
     }
+  }
+  class CartProduct {
+    constructor(menuProduct, element){
+      const thisCartProduct = this;
+      thisCartProduct.id = menuProduct.id;
+      thisCartProduct.name = menuProduct.name;
+      thisCartProduct.amount = menuProduct.amount;
+      thisCartProduct.priceSingle = menuProduct.priceSingle;
+      thisCartProduct.price = menuProduct.price;
+      thisCartProduct.getElements(element);
+      thisCartProduct.initAmountWidget();
+    }
+    getElements(element){
+      const thisCartProduct = this;
+      thisCartProduct.dom = {};
+      thisCartProduct.dom.wrapper = element;
+      thisCartProduct.dom.amountWidget = thisCartProduct.dom.wrapper.querySelector(select.cartProduct.amountWidget);
+      thisCartProduct.dom.price = thisCartProduct.dom.wrapper.querySelector(select.cartProduct.price);
+      thisCartProduct.dom.edit = thisCartProduct.dom.wrapper.querySelector(select.cartProduct.edit);
+      thisCartProduct.dom.remove = thisCartProduct.dom.wrapper.querySelector(select.cartProduct.remove);
+    }
+
+    initAmountWidget() {
+      const thisCartProduct = this;
+      thisCartProduct.amountWidget = new AmountWidget(thisCartProduct.dom.amountWidget);
+      thisCartProduct.dom.amountWidget.addEventListener('updated', function(){
+        thisCartProduct.amount = thisCartProduct.amountWidget.value;
+        thisCartProduct.price = thisCartProduct.amount * thisCartProduct.priceSingle;
+        thisCartProduct.dom.price.innerHTML = thisCartProduct.price;
+      });
+    }
+
   }
 
   const app = {
