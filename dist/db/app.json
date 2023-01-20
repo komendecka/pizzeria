@@ -206,50 +206,53 @@
     {
       "address": "",
       "phone": "",
-      "totalPrice": 47,
-      "subtotalPrice": 27,
-      "totalNumber": 3,
+      "totalPrice": 56,
+      "subtotalPrice": 36,
+      "totalNumber": 4,
       "deliveryFee": 20,
       "products": [
-        null
+        {
+          "id": "cake",
+          "amount": 4,
+          "price": 9,
+          "priceSingle": 36,
+          "name": "Zio Stefano's Doughnut"
+        }
       ],
       "id": 1
     },
     {
       "address": "",
       "phone": "",
-      "totalPrice": 58,
-      "subtotalPrice": 38,
-      "totalNumber": 3,
+      "totalPrice": 56,
+      "subtotalPrice": 36,
+      "totalNumber": 4,
       "deliveryFee": 20,
       "products": [
-        null,
-        null,
-        null
+        {
+          "id": "cake",
+          "amount": 4,
+          "price": 9,
+          "priceSingle": 36,
+          "name": "Zio Stefano's Doughnut"
+        }
       ],
       "id": 2
     },
     {
       "address": "",
       "phone": "",
-      "totalPrice": 47,
-      "subtotalPrice": 27,
-      "totalNumber": 3,
+      "totalPrice": 56,
+      "subtotalPrice": 36,
+      "totalNumber": 4,
       "deliveryFee": 20,
       "products": [
         {
           "id": "cake",
-          "amount": 2,
+          "amount": 4,
           "price": 9,
-          "priceSingle": 18,
+          "priceSingle": 36,
           "name": "Zio Stefano's Doughnut"
-        },
-        {
-          "id": "salad",
-          "amount": 1,
-          "price": 9,
-          "priceSingle": 9,
-          "name": "Nonno Alberto's Salad"
         }
       ],
       "id": 3
@@ -257,27 +260,70 @@
     {
       "address": "",
       "phone": "",
-      "totalPrice": 47,
-      "subtotalPrice": 27,
-      "totalNumber": 3,
+      "totalPrice": 56,
+      "subtotalPrice": 36,
+      "totalNumber": 4,
       "deliveryFee": 20,
       "products": [
         {
           "id": "cake",
-          "amount": 2,
+          "amount": 4,
           "price": 9,
-          "priceSingle": 18,
+          "priceSingle": 36,
           "name": "Zio Stefano's Doughnut"
-        },
-        {
-          "id": "salad",
-          "amount": 1,
-          "price": 9,
-          "priceSingle": 9,
-          "name": "Nonno Alberto's Salad"
         }
       ],
       "id": 4
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 76,
+      "subtotalPrice": 56,
+      "totalNumber": 5,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "amount": 4,
+          "price": 9,
+          "priceSingle": 36,
+          "name": "Zio Stefano's Doughnut"
+        },
+        {
+          "id": "pizza",
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
+          "name": "Nonna Alba's Pizza"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "address": "",
+      "phone": "",
+      "totalPrice": 76,
+      "subtotalPrice": 56,
+      "totalNumber": 5,
+      "deliveryFee": 20,
+      "products": [
+        {
+          "id": "cake",
+          "amount": 4,
+          "price": 9,
+          "priceSingle": 36,
+          "name": "Zio Stefano's Doughnut"
+        },
+        {
+          "id": "pizza",
+          "amount": 1,
+          "price": 20,
+          "priceSingle": 20,
+          "name": "Nonna Alba's Pizza"
+        }
+      ],
+      "id": 6
     }
   ]
 }
