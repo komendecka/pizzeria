@@ -20,14 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9400bbf2-ae5c-4e55-b897-2e292f651863" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.stylelintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/db/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +108,7 @@
       <workItem from="1673281863738" duration="1007000" />
       <workItem from="1673283517805" duration="10130000" />
       <workItem from="1673955447226" duration="622000" />
-      <workItem from="1674044758373" duration="6443000" />
+      <workItem from="1674044758373" duration="12040000" />
     </task>
     <servers />
   </component>
@@ -131,6 +142,10 @@
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="974" y="327" key="#Notifications/0.25.1680.949/-1440.654.1440.875@0.25.1680.949" timestamp="1673348402708" />
+    <state x="1974" y="-211" key="#Stylelint" timestamp="1674232367528">
+      <screen x="1440" y="-629" width="1680" height="1050" />
+    </state>
+    <state x="1974" y="-211" key="#Stylelint/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674232367528" />
     <state width="254" height="200" key="RunAnythingAction_Filter_Popup" timestamp="1673348465069">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
