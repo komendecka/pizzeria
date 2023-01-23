@@ -21,8 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="9400bbf2-ae5c-4e55-b897-2e292f651863" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/AmountWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/AmountWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/AmountWidget.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/AmountWidget.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_booking.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +104,8 @@
       <workItem from="1673281863738" duration="1007000" />
       <workItem from="1673283517805" duration="10130000" />
       <workItem from="1673955447226" duration="622000" />
-      <workItem from="1674044758373" duration="13990000" />
+      <workItem from="1674044758373" duration="14802000" />
+      <workItem from="1674312962193" duration="5182000" />
     </task>
     <servers />
   </component>
@@ -142,10 +155,11 @@
       <screen x="0" y="25" width="1680" height="949" />
     </state>
     <state x="963" y="112" width="602" height="735" key="find.popup/0.25.1680.949/-1440.25.1440.875@0.25.1680.949" timestamp="1672238606211" />
-    <state x="898" y="655" key="run.anything.popup" timestamp="1673348465079">
-      <screen x="0" y="25" width="1680" height="949" />
+    <state x="2338" y="76" key="run.anything.popup" timestamp="1674313513536">
+      <screen x="1440" y="-604" width="1680" height="1025" />
     </state>
     <state x="898" y="655" key="run.anything.popup/0.25.1680.949/-1440.654.1440.875@0.25.1680.949" timestamp="1673348465079" />
+    <state x="2338" y="76" key="run.anything.popup/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674313513536" />
     <state x="721" y="127" width="670" height="676" key="search.everywhere.popup" timestamp="1672746520548">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
