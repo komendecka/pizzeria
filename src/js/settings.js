@@ -3,6 +3,11 @@ export const select = {
     menuProduct: '#template-menu-product',
     cartProduct: '#template-cart-product',
     bookingWidget: '#template-booking-widget',
+    homePage: '#template-home',
+
+  },
+  home:{
+    links: '.link-btn',
   },
   containerOf: {
     menu: '#product-list',
@@ -37,13 +42,20 @@ export const select = {
       wrapper: '.hour-picker',
       input: 'input[type="range"]',
       output: '.output',
-    },
-  }, 
+    }
+  },
   booking: {
     peopleAmount: '.people-amount',
     hoursAmount: '.hours-amount',
-    tables: '.floor-plan .table',
+    tables: '.table',
+    tablesContainer: '.floor-plan',
+    selectedTable: '.selected',
+    phone: '.order-confirmation [name="phone"]',
+    address: '.order-confirmation [name="address"]',
+    starters: '[name="starter"]',
+    submit: '.booking-form',
   },
+
   nav: {
     links: '.main-nav a',
   },
@@ -80,6 +92,8 @@ export const classNames = {
   booking: {
     loading: 'loading',
     tableBooked: 'booked',
+    tableSelected: 'selected',
+
   },
   nav: {
     active: 'active',
@@ -125,5 +139,6 @@ export const templates = {
   menuProduct: Handlebars.compile(document.querySelector(select.templateOf.menuProduct).innerHTML),
   cartProduct: Handlebars.compile(document.querySelector(select.templateOf.cartProduct).innerHTML),
   bookingWidget: Handlebars.compile(document.querySelector(select.templateOf.bookingWidget).innerHTML),
+  homePage: Handlebars.compile(document.querySelector(select.templateOf.homePage).innerHTML)
 
 };

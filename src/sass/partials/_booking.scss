@@ -173,6 +173,10 @@
       }
 
     }
+
+    &.selected {
+      border: 3px solid $color-success;
+    }
   }
 
   [data-table="1"] {
