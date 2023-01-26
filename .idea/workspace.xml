@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9400bbf2-ae5c-4e55-b897-2e292f651863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
@@ -30,17 +28,12 @@
       <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Booking.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/vendor/range-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vendor/range-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/partials/_booking.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_booking.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendor/range-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendor/range-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/partials/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_home.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +87,7 @@
     <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/js/components/Booking.js" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -114,7 +108,9 @@
       <workItem from="1673283517805" duration="10130000" />
       <workItem from="1673955447226" duration="622000" />
       <workItem from="1674044758373" duration="14802000" />
-      <workItem from="1674312962193" duration="34402000" />
+      <workItem from="1674312962193" duration="39348000" />
+      <workItem from="1674680939481" duration="9000" />
+      <workItem from="1674720670156" duration="8427000" />
     </task>
     <servers />
   </component>
@@ -152,6 +148,11 @@
       <screen x="1440" y="-629" width="1680" height="1050" />
     </state>
     <state x="1974" y="-211" key="#Stylelint/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674232367528" />
+    <state x="1502" y="-55" width="1680" height="1025" key="DiffContextDialog" timestamp="1674731148054">
+      <screen x="1440" y="-604" width="1680" height="1025" />
+    </state>
+    <state x="1502" y="-55" width="1680" height="1025" key="DiffContextDialog/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674731148054" />
+    <state x="2002" y="-529" width="1018" height="850" key="DiffContextDialog/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674673582969" />
     <state width="254" height="200" key="RunAnythingAction_Filter_Popup" timestamp="1673348465069">
       <screen x="0" y="25" width="1680" height="949" />
     </state>
@@ -171,12 +172,13 @@
     </state>
     <state x="898" y="655" key="run.anything.popup/0.25.1680.949/-1440.654.1440.875@0.25.1680.949" timestamp="1673348465079" />
     <state x="2338" y="76" key="run.anything.popup/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674313513536" />
-    <state x="2161" y="-517" width="670" height="749" key="search.everywhere.popup" timestamp="1674670111296">
-      <screen x="1440" y="-629" width="1680" height="1050" />
+    <state x="2161" y="-495" width="670" height="732" key="search.everywhere.popup" timestamp="1674730450023">
+      <screen x="1440" y="-604" width="1680" height="1025" />
     </state>
     <state x="721" y="127" width="670" height="676" key="search.everywhere.popup/0.25.1680.949/-1440.25.1440.875@0.25.1680.949" timestamp="1672396268051" />
     <state x="721" y="127" width="670" height="676" key="search.everywhere.popup/0.25.1680.949/-1440.654.1440.875@0.25.1680.949" timestamp="1672746520548" />
+    <state x="2161" y="-495" width="670" height="732" key="search.everywhere.popup/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674730450023" />
     <state x="2161" y="-501" width="670" height="686" key="search.everywhere.popup/1440.-604.1680.962/0.25.1440.875@1440.-604.1680.962" timestamp="1674499155008" />
-    <state x="2161" y="-517" width="670" height="749" key="search.everywhere.popup/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674670111296" />
+    <state x="2161" y="-517" width="670" height="749" key="search.everywhere.popup/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674673610945" />
   </component>
 </project>

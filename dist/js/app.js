@@ -11,7 +11,7 @@ const app = {
     const homeWrapper = document.querySelector(select.containerOf.homePage);
 
     thisApp.homePage = new Home(homeWrapper);
-    thisApp.homeLinks = document.querySelectorAll(select.home.links);
+    // thisApp.homeLinks = document.querySelectorAll(select.home.links);
     //
     // for(let link of thisApp.homeLinks){
     //   link.addEventListener('click', function(event) {

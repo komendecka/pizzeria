@@ -1,8 +1,6 @@
-/* booking-wrapper styles*/
-
 .home-wrapper {
   margin: ($base-size * 3.5) auto;
-  padding: ($base-size * 6) ($base-size * 4);
+  padding: ($base-size * 6) ($base-size * 4) auto;
   background: $color-light;
   border-bottom: 1px solid lighten($color-dark, 70%);
   border-radius: $radius;
@@ -10,7 +8,7 @@
 
 .row-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: nowrap;
   gap: ($base-size / 2);
 }
@@ -34,6 +32,9 @@ h3 {
 }
 
 .box a {
+  margin: auto;
+  justify-content: center;
+
   text-decoration: none;
   color: $color-light;
 }
@@ -74,6 +75,8 @@ h3 {
 }
 
 .bottom-box {
+  margin: ($base-size) ;
+  justify-content: center;
   width: 606px;
   height: 120px;
   border-radius: $radius;
@@ -81,8 +84,9 @@ h3 {
   color: $color-light;
   text-align: center;
   flex: 100%;
-  margin: ($base-size / 2) 0;
-  padding: ($base-size * 2) 0;
+  padding: ($base-size * 2) ;
+  object-fit: cover;
+
 }
 
 .bottom-box h3 {
@@ -96,32 +100,113 @@ h3 {
 
 /* Carousel */
 
-.carousel-wrapper {
+.main-carousel {
   padding: 20px 0;
 }
 
-.carousel-box {
+.carousel-cell {
   width: 100%;
   height: 250px;
-  border-radius: 4px;
   margin-right: 10px;
   display: flex;
   flex-direction: row;
-  gap: 40px;
 
-  &__image {
-    flex: 30%;
-  }
+}
 
-  &__info {
-    flex: 60%;
-  }
+.carousel-box__image {
+flex: 30%;
+  border-radius: $radius;
 
-  &__image img {
+  & img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: $radius;
+    padding: $base-size;
   }
 }
+
+.carousel-box__info {
+    flex: 60%;
+}
+
+
+/* gallery */
+
+.image-gallery{
+  margin-top: 60px;
+  width: 604px;
+  height: 398px;
+}
+
+.gallery-row {
+  margin: 0 0 5px 0;
+  width: 604px;
+  height: 198px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image-box {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 190px;
+  height: 190px;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+
+}
+
+.icon-wrapper {
+  position: absolute;
+  right: 30%;
+  top: 50%;
+  height: 25px;
+  width: 80px;
+  text-align: center;
+  z-index: 1;
+}
+
+.icon-wrapper i {
+  margin: 5px;
+  font-size: 20px;
+  color: $color-light;
+  visibility: hidden;
+}
+
+.image-box:hover .icon-wrapper i{
+  visibility: visible;
+}
+
+.icon-wrapper > a:hover i {
+  color: $color-danger;
+  transform: scale(1.25);
+}
+
+.image-box::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0;
+  background-color: black;
+  z-index: 0;
+  top: 0;
+}
+
+.image-box:hover::after {
+  display: block;
+  opacity: 0.6;
+}
+
+.instagram {
+  color: $color-danger;
+}
+
 
