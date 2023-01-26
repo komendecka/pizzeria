@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9400bbf2-ae5c-4e55-b897-2e292f651863" name="Default Changelist" comment="" />
+    <list default="true" id="9400bbf2-ae5c-4e55-b897-2e292f651863" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +98,7 @@
       <workItem from="1674044758373" duration="14802000" />
       <workItem from="1674312962193" duration="39348000" />
       <workItem from="1674680939481" duration="9000" />
-      <workItem from="1674720670156" duration="9331000" />
+      <workItem from="1674720670156" duration="9541000" />
     </task>
     <servers />
   </component>
@@ -133,10 +136,10 @@
       <screen x="1440" y="-629" width="1680" height="1050" />
     </state>
     <state x="1974" y="-211" key="#Stylelint/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674232367528" />
-    <state x="1502" y="-55" width="1680" height="1025" key="DiffContextDialog" timestamp="1674731148054">
+    <state x="1852" y="333" width="1680" height="1025" key="DiffContextDialog" timestamp="1674735390572">
       <screen x="1440" y="-604" width="1680" height="1025" />
     </state>
-    <state x="1502" y="-55" width="1680" height="1025" key="DiffContextDialog/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674731148054" />
+    <state x="1852" y="333" width="1680" height="1025" key="DiffContextDialog/1440.-604.1680.1025/0.25.1440.812@1440.-604.1680.1025" timestamp="1674735390572" />
     <state x="2002" y="-529" width="1018" height="850" key="DiffContextDialog/1440.-629.1680.1050/0.25.1440.875@1440.-629.1680.1050" timestamp="1674673582969" />
     <state width="254" height="200" key="RunAnythingAction_Filter_Popup" timestamp="1673348465069">
       <screen x="0" y="25" width="1680" height="949" />

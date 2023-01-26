@@ -136,7 +136,6 @@ class Booking {
 
     /* NEW find table id of clicked table */
     const tableId = clickedElement.getAttribute('data-table');
-console.log('tableId', tableId);
     /* NEW if a table was clicked */
     if(tableId){
 
