@@ -114,6 +114,7 @@ h3 {
 .carousel-box__image {
   flex: 30%;
   border-radius: $radius;
+
   img {
     width: 100%;
     height: 100%;
@@ -124,7 +125,7 @@ h3 {
 }
 
 .carousel-box__info {
-    flex: 60%;
+  flex: 60%;
 }
 
 /* gallery */
