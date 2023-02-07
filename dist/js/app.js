@@ -9,17 +9,8 @@ const app = {
   initHome: function(){
     const thisApp = this;
     const homeWrapper = document.querySelector(select.containerOf.homePage);
-
     thisApp.homePage = new Home(homeWrapper);
-    // thisApp.homeLinks = document.querySelectorAll(select.home.links);
-    //
-    // for(let link of thisApp.homeLinks){
-    //   link.addEventListener('click', function(event) {
-    //     event.preventDefault();
-    //     const linkHref = link.getAttribute('href').replace('#', '');
-    //
-    //     thisApp.activatePage(linkHref);
-    //   });
+
   },
 
   initPages: function() {

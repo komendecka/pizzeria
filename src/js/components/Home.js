@@ -12,7 +12,6 @@ class Home {
     const generatedHTML = templates.homePage(element);
     thisHome.dom = {};
     thisHome.dom.wrapper = element;
-    console.log(thisHome.dom);
     thisHome.dom.wrapper.innerHTML = generatedHTML;
   }
 
@@ -20,7 +19,6 @@ class Home {
 
     const elem = document.querySelector('.main-carousel');
     const flkty = new Flickity(elem, { // eslint-disable-line
-      // options
       cellAlign: 'left',
       contain: true,
       autoPlay: 2700,

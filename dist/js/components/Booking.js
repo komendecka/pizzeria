@@ -7,13 +7,11 @@ import {utils} from '../utils.js';
 class Booking {
   constructor(element) {
     const thisBooking = this;
-
     thisBooking.element = element;
     thisBooking.render(element);
     thisBooking.initWidgets();
     thisBooking.getData();
     thisBooking.selected = {};
-
   }
 
   getData() {
@@ -91,12 +89,10 @@ class Booking {
       thisBooking.booked[date] = {};
     }
     const startHour = utils.hourToNumber(hour);
-
     for (let hourBlock = startHour; hourBlock < startHour + duration; hourBlock += 0.5) {
       if (typeof thisBooking.booked[date][hourBlock] == 'undefined') {
         thisBooking.booked[date][hourBlock] = [];
       }
-
       thisBooking.booked[date][hourBlock].push(table);
     }
   }
@@ -124,49 +120,36 @@ class Booking {
         &&
         thisBooking.booked[thisBooking.date][thisBooking.hour].includes(tableId)
       ) {
-        table.classList.add(classNames.booking.tableBooked); //Zminana literowki powoduje blad
+        table.classList.add(classNames.booking.tableBooked);
       } else {
         table.classList.remove(classNames.booking.tableBooked);
       }
     }
   }
 
-  initTables(clickedElement){
+  initTables(clickedElement) {
     const thisBooking = this;
-
-    /* NEW find table id of clicked table */
     const tableId = clickedElement.getAttribute('data-table');
-console.log('tableId', tableId);
-    /* NEW if a table was clicked */
-    if(tableId){
-
-      /* if a table is already booked - show alert */
-      if(clickedElement.classList.contains(classNames.booking.tableBooked)){
+    if (tableId) {
+      if (clickedElement.classList.contains(classNames.booking.tableBooked)) {
         alert('TABLE IS ALREADY BOOKED');
-
-        /* if it's not booked */
-      }else {
-
-        /*for every table - if it contains class selected and it's not a clicked element - remove class selected */
-        for(const table of thisBooking.dom.tables){
-          if(table.classList.contains(classNames.booking.tableSelected) && table !== clickedElement){
+      } else {
+        for (const table of thisBooking.dom.tables) {
+          if (table.classList.contains(classNames.booking.tableSelected) && table !== clickedElement) {
             table.classList.remove(classNames.booking.tableSelected);
           }
         }
-        /* other way - the table is selected - add class selected */
-        if(tableId !== thisBooking.tableSelected ) {
+        if (tableId !== thisBooking.tableSelected) {
           clickedElement.classList.add(classNames.booking.tableSelected);
           thisBooking.tableSelected = tableId;
-        } else { thisBooking.tableSelected = null;
+        } else {
+          thisBooking.tableSelected = null;
           clickedElement.classList.remove(classNames.booking.tableSelected
-          );}
-
-        console.log('thisBooking.tableSelected', thisBooking.tableSelected);
-
+          );
+        }
       }
     }
   }
-
 
   render(element) {
     const thisBooking = this;
@@ -219,12 +202,11 @@ console.log('tableId', tableId);
 
   sendBooking() {
     const thisBooking = this;
-    // console.log(thisBooking.selected);
     const url = settings.db.url + '/' + settings.db.booking;
     const bookingLoad = {
       date: thisBooking.datePicker.value,
       hour: thisBooking.hourPicker.value,
-      table: parseInt(thisBooking.selected),
+      table: parseInt(thisBooking.tableSelected),
       duration: parseInt(thisBooking.hoursAmount.value),
       ppl: parseInt(thisBooking.peopleAmount.value),
       starters: [],
@@ -249,6 +231,8 @@ console.log('tableId', tableId);
       }).then(function (parsedResponse) {
         console.log('parsedResponse', parsedResponse);
         thisBooking.makeBooked(bookingLoad.date, bookingLoad.hour, bookingLoad.duration, bookingLoad.table);
+      }).catch(error => {
+        console.log('error:' + error);
       });
   }
 }
