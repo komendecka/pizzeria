@@ -25,12 +25,39 @@
       <change beforePath="$PROJECT_DIR$/dist/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/db/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/db/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/breakfast.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/doughnut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/basil.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/crust.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/green-peppers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/mushrooms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/olives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/red-peppers.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/salami.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/sour-cream.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/pizza/tomato-sauce.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/black-pepper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/cheese.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/cucumber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/feta.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/herbs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/plate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/salad-olives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/salad/tomatoes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/AmountWidget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/BaseWidget.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/components/Booking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/CartProduct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/DatePicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/HourPicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/components/Product.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Booking.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Booking.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/range-slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendor/range-slider.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +136,7 @@
       <workItem from="1674680939481" duration="9000" />
       <workItem from="1674720670156" duration="11161000" />
       <workItem from="1675755930070" duration="2852000" />
-      <workItem from="1675766938975" duration="780000" />
+      <workItem from="1675766938975" duration="1792000" />
     </task>
     <servers />
   </component>
